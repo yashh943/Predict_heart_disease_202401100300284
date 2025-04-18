@@ -1,32 +1,59 @@
-Heart disease is one of the leading causes of death globally. Early prediction and diagnosis can significantly improve patient outcomes. This project leverages machine learning algorithms to predict the presence of heart disease using a dataset of patient health information.
+# ❤️ Heart Disease Prediction using Random Forest
 
-Dataset
-The dataset used in this project is the Cleveland Heart Disease dataset, which contains 14 attributes for each patient:
+This project is a machine learning model that predicts whether a person has heart disease based on medical attributes. It uses a **Random Forest Classifier** trained on a labeled dataset.
 
-Age
+---
 
-Sex
+## 📁 Dataset
 
-Chest pain type
+The dataset used is `4. Predict Heart Disease.csv`, which includes various medical features such as:
 
-Resting blood pressure
+- Age
+- Sex
+- Chest pain type
+- Resting blood pressure
+- Cholesterol
+- Fasting blood sugar
+- Maximum heart rate achieved
+- ST depression
+- And more...
 
-Serum cholesterol
+**Target column:**  
+- `0` → No heart disease  
+- `1` → Heart disease present
 
-Fasting blood sugar
+---
 
-Resting electrocardiographic results
+## 📌 Problem Statement
 
-Maximum heart rate achieved
+Predict whether a patient is likely to have heart disease based on a variety of medical parameters using supervised machine learning.
 
-Exercise induced angina
+---
 
-Oldpeak (depression induced by exercise relative to rest)
+## ⚙️ Technologies Used
 
-Slope of the peak exercise ST segment
+- Python
+- Pandas
+- Scikit-learn
+- Matplotlib
+- Seaborn
 
-Number of vessels colored by fluoroscopy
+---
 
-Thalassemia
+## 🧠 Machine Learning Model
 
-Target (Heart Disease Presence: 0 - No, 1 - Yes)
+- **Algorithm:** Random Forest Classifier
+- **Train/Test Split:** 80/20
+- **Evaluation Metrics:**
+  - Accuracy Score
+  - Classification Report (Precision, Recall, F1-score)
+  - Confusion Matrix (Visualized using a heatmap)
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/your-username/heart-disease-prediction.git
+   cd heart-disease-prediction
