@@ -51,9 +51,4 @@ Predict whether a patient is likely to have heart disease based on a variety of 
 
 ---
 
-## 🚀 How to Run
 
-1. Clone the repository  
-   ```bash
-   git clone https://github.com/your-username/heart-disease-prediction.git
-   cd heart-disease-prediction
